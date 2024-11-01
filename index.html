@@ -1,91 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume@viresh</title>
-</head>
-<body>
-    <h1>Viresh Navtake</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><span>Viresh Navtake</span></a>
 
-    <hr>
-    <hr>
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
 
-    <img src="./portfolio_pic.png" alt="150">
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
 
-    <hr>
-    <hr>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
 
-    <h2>Experience</h2>
+        <li>
+          <a href="#contact">contact</a>
+        </li>
+      </ul>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <!-- <button class="github">Visit Github</button> -->
+    </header>
+
+    <section id="about" class="about">
+      <div class="about-container">
+        <img src="IMG20241021075850~2.jpg" alt="" />
+
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>Viresh Navtake</h1>
+            <span
+              >Full Stack Developer <br />
+              Data Analyst</span
+            >
+          </div>
+
+          <div class="btn-group">
+            <div class="btn">Download CV</div>
+            <div class="btn">Contact</div>
+          </div>
+
+          <div class="socials">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- experience section -->
+    <section id="experience" class="experience">
+      <h2 class="section-title">Experience</h2>
+      <div class="experience-info">
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-solid fa-laptop"></i>
+            <span>ARTIFICIAL INTELLIGENCE AND CODING CLUB, GHRCEM</span>
+            <h3>On going (From March 2023)</h3>
+            <p>
+              "Starting as a tech team member, I quickly grew within my
+              college's AI Club to become team lead at GHRCEM PUNE, where I led
+              initiatives in AI-focused projects and mentored peers in
+              cutting-edge AI techniques. In this role, I fostered a
+              collaborative environment, developed strategic project roadmaps,
+              and ensured timely progress on goals, enhancing the team’s impact
+              and learning experiences."
+            </p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-laptop"></i>
+            <span>DATA SMITH AI, PUNE</span>
+            <h3>2 Months (On Site)</h3>
+
+            <p>
+              "I worked here as Data Analyst Intern. I mastered my skills in
+              Python, data science libraries (NumPy, Pandas, Matplotlib,
+              Scikit-learn), machine learning, and more. contributed to a
+              project predicting house prices based on city and residence type.
+              It was a fantastic experience understanding the work culture, task
+              management, and solution-oriented approaches.""
+            </p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-laptop"></i>
+            <span>MEDTOUREASY, NEW DELHI</span>
+            <h3>2 Months (Remote)</h3>
+            <p>
+              "As a Data Analyst intern at MTE, I applied data science
+              techniques and analytics skills to support business insights and
+              drive data-driven decisions. Earlier, in my first year, I
+              contributed to a Death Age Ratio Analysis project, deepening my
+              understanding of data interpretation and visualization. Through
+              these experiences, I honed my analytical approach and
+              collaborative skills, bringing value to each project with
+              precision and dedication."
+            </p>
+          </div>
+        </div>
+
+        <!-- <img src="IMG20241021075850~2.jpg" alt=""> -->
+      </div>
+    </section>
+
+
+    <!-- project section -->
+    <section class="projects" id="projects">
+      <h2 class="section-title" id="rprojects">Recent Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="house_price_prediction.jpg" alt="" />
+          <h3>House Price Prediction</h3>
+          <p>
+            Used regression techniques to predict house prices based on city and
+            residence type.
+          </p>
+          <div class="btn-group">
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+
+        <div class="project-card" id="second">
+            <img src="death_age_ratio.png" alt="" />
+            <h3>Death Age Ratio Analysis</h3>
+            <p>
+              Used regression techniques to predict house prices based on city and
+              residence type.
+            </p>
+            <div class="btn-group">
+              <div class="btn">Github Repo</div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="house_price_prediction.jpg" alt="" />
+            <h3>House Price Prediction</h3>
+            <p>
+              Used regression techniques to predict house prices based on city and
+              residence type.
+            </p>
+            <div class="btn-group">
+              <div class="btn">Github Repo</div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="input">
+                <input type="text" placeholder="example@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="btn">Submit</div>
+        </div>
+    </section>
+
+    <footer>
         <ul>
-            <li><h3> Data Analyst at Data Smith</h3></li>
-                <p>Duration : From May 2024 to Augest 2024</p>
-                <p>I worked here during my summer hoildays of second year. intership was 
-                   all about data science, Python, libraries which is important for data science,
-                   machine learning, etc. 
-                </p>
+            <li>
+                <a href="#about">About</a>
+            </li>
 
-            <li><h3>Data Analyst at MTE</h3></li>
-                <p>Duration : From June 2023 to Augest 2023</p>
-                <p>I worked here during my summer hoildays of first year. intrnship was all 
-                    about learning the whole lifecycle of data. How to process it, How to process,
-                    clean, analyse, visualize data.
-                </p>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
 
-            <li><h3>Tecnical Team Co-lead at AICC Club</h3></li>
-                <p>Duration : October 2023 to present</p>
-                <p>I am part of Artificial intelligence and coding club from my
-                    second year. I have joined firstly as a Technical team member later on
-                    promoted as Co-lead of technical team. we as a club conduct multiple 
-                    events, college level activities and more. 
-                </p>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
         </ul>
 
-    <hr>
-    <hr>
+        <p class="copyright">@ All Rights Reversed | Viresh Navtake</p>
+    </footer>
 
-    <h2>Education</h2>
-        <ul>
-            <li><h3>B.tech - G.H. Raisoni, Pune</h3></li>
-                <p>Pursuing my Bachlores degree in Computer Science with specilization in field of Artificial Intelligence.</p>
-            <li><h3>Jr.College - Rajarshi Shahu Mahavidyalaya, Latur </h3></li>
-                <p>Completed my junior college from one of the best institute known for its academic excellence. Got admission
-                    here after securing 96% marks in ssc board.
-                </p>
-            <li><h3>Schooling - Yashwant Vidyalaya, Ahmedpur</h3></li>
-        </ul>
-    
-    <hr>
-    <hr>
-
-    <h2>Skills</h2>
-        <ul>
-            <li><h3>Python</h3></li>
-            <li><h3>Linux</h3></li>
-            <li><h3>GCP</h3></li>
-            <li><h3>Git and Github</h3></li>
-            <li><h3>Data Science</h3></li>
-            <li><h3>SQL</h3></li>
-            <li><h3>Machine Learning</h3></li>
-            <li><h3>Data Processing</h3></li>
-        </ul>
-    
-    <hr>
-    <hr>
-
-    <h2>Awards and Certification</h2>
-    <ul>
-        <li><h3>Google Data Analytics Certification</h3></li>
-        <li><h3>GCP begineer level Badge</h3></li>
-        <li><h3>Letter of REcommendation - by MTE HR dept.</h3></li>
-        <li><h3>Letter of Appreciation - by MTE HR dept.</h3></li>
-    </ul>
-
-    <hr>
-    <hr>
-
-    <h2>About Me</h2>
-    <a href="portfolio_website_contact_page.html">Any Quries Click here</a>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
