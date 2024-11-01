@@ -491,6 +491,14 @@ footer ul li a {
     font-size: 1.5rem;
   }
 
+  .btn {
+    color: black;
+  }
+
+  .socials i{
+    color: black;
+  }
+
   .input input::placeholder{
     font-size: 1.5rem;
   }
