@@ -17,12 +17,12 @@
     />
   </head>
   <body>
+    <!-- header -->
     <header class="header">
       <a href="#" class="logo"><span>Viresh Navtake</span></a>
-
       <ul class="nav-links">
         <li>
-          <a href="#about">About</a>
+          <a href="#about_1">About</a>
         </li>
 
         <li>
@@ -31,6 +31,14 @@
 
         <li>
           <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="https://medium.com/@viresh3104" target="_blank">Blogs</a>
+        </li>
+
+        <li>
+          <a href="">Skills</a>
         </li>
 
         <li>
@@ -44,12 +52,17 @@
     </header>
 
     <section id="about" class="about">
-      <div class="about-container">
-        <img src="IMG20241021075850~2.jpg" alt="" />
 
+      <div id="particles-js"></div>
+      <!-- stats - count particles -->
+      <div class="count-particles">
+        <span class="js-count-particles"></span>
+      </div>
+
+    
+      <div class="about-container">
         <div class="info-box">
           <div class="text">
-            <h3>Hi, I'm</h3>
             <h1>Viresh Navtake</h1>
             <span
               >Full Stack Developer <br />
@@ -58,7 +71,9 @@
           </div>
 
           <div class="btn-group">
-            <a href="My Resume (1).pdf" download="Vireshnavtake.pdf" class="btn">Download CV</a>
+            <a href="My Resume (1).pdf" download="Vireshnavtake.pdf" class="btn"
+              >Download CV</a
+            >
             <a href="#contact" class="btn">Contact</a>
           </div>
 
@@ -66,14 +81,33 @@
             <a href="https://github.com/viresh3104" target="_blank">
               <i class="fa-brands fa-github"></i>
             </a>
-          
-            <a href="https://www.linkedin.com/in/viresh-navtake-a0187123b/" target="_blank">
+
+            <a href="https://leetcode.com/u/user0838kS/" target="_blank">
+              <img src="leetcode.png" alt="" />
+            </a>
+
+            <a href="mailto:vireshnavtake.cloud@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/viresh-navtake-a0187123b/"
+              target="_blank"
+            >
               <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://medium.com/@viresh3104" target="_blank">
+              <i class="fa-brands fa-medium"></i>
             </a>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- <section id="about_1" class="about_1">
+      <img src="portfolio_image.jpg" alt="" />
+    </section> -->
 
     <!-- experience section -->
     <section id="experience" class="experience">
@@ -131,7 +165,6 @@
       </div>
     </section>
 
-
     <!-- project section -->
     <section class="projects" id="projects">
       <h2 class="section-title" id="rprojects">Recent Projects</h2>
@@ -149,68 +182,69 @@
         </div>
 
         <div class="project-card" id="second">
-            <img src="death_age_ratio.png" alt="" />
-            <h3>Death Age Ratio Analysis</h3>
-            <p>
-              Used regression techniques to predict house prices based on city and
-              residence type.
-            </p>
-            <div class="btn-group">
-              <div class="btn">Github Repo</div>
-            </div>
+          <img src="death_age_ratio.png" alt="" />
+          <h3>Death Age Ratio Analysis</h3>
+          <p>
+            Used regression techniques to predict house prices based on city and
+            residence type.
+          </p>
+          <div class="btn-group">
+            <div class="btn">Github Repo</div>
+          </div>
         </div>
 
         <div class="project-card">
-            <img src="house_price_prediction.jpg" alt="" />
-            <h3>House Price Prediction</h3>
-            <p>
-              Used regression techniques to predict house prices based on city and
-              residence type.
-            </p>
-            <div class="btn-group">
-              <div class="btn">Github Repo</div>
-            </div>
+          <img src="house_price_prediction.jpg" alt="" />
+          <h3>House Price Prediction</h3>
+          <p>
+            Used regression techniques to predict house prices based on city and
+            residence type.
+          </p>
+          <div class="btn-group">
+            <div class="btn">Github Repo</div>
+          </div>
         </div>
       </div>
     </section>
 
-
-<!-- contact section -->
+    <!-- contact section -->
     <section class="contact" id="contact">
-        <div class="input-box">
-            <h2 class="section-title">Contact Me</h2>
+      <div class="input-box">
+        <h2 class="section-title">Contact Me</h2>
 
-            <div class="input">
-                <input type="text" placeholder="example@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-            </div>
-
-            <div class="btn">Submit</div>
+        <div class="input">
+          <input type="text" placeholder="example@gmail.com" />
+          <i class="fa-solid fa-envelope"></i>
         </div>
+
+        <div class="btn">Submit</div>
+      </div>
     </section>
 
     <footer>
-        <ul>
-            <li>
-                <a href="#about">About</a>
-            </li>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
 
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
 
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        src="https://cdn.jsdelivr.net/npm/tsparticles"
 
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
 
-        <p class="copyright">@ All Rights Reversed | Viresh Navtake</p>
+      <p class="copyright">@ All Rights Reversed | Viresh Navtake</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
