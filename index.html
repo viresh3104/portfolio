@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🤷</text></svg>"></link>
     <link
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Varela+Round&display=swap"
       rel="stylesheet"
@@ -16,6 +17,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
   </head>
+
   <body>
     <!-- header -->
     <header class="header">
@@ -38,28 +40,20 @@
         </li>
 
         <li>
-          <a href="">Skills</a>
-        </li>
-
-        <li>
           <a href="#contact">contact</a>
         </li>
       </ul>
 
       <i class="fa-solid fa-bars" id="menu-icon"></i>
-
-      <!-- <button class="github">Visit Github</button> -->
     </header>
 
     <section id="about" class="about">
-
       <div id="particles-js"></div>
       <!-- stats - count particles -->
       <div class="count-particles">
         <span class="js-count-particles"></span>
       </div>
 
-    
       <div class="about-container">
         <div class="info-box">
           <div class="text">
@@ -82,19 +76,19 @@
               <i class="fa-brands fa-github"></i>
             </a>
 
-            <a href="https://leetcode.com/u/user0838kS/" target="_blank">
-              <img src="leetcode.png" alt="" />
-            </a>
-
-            <a href="mailto:vireshnavtake.cloud@gmail.com" target="_blank">
-              <i class="fa-solid fa-envelope"></i>
-            </a>
-
             <a
               href="https://www.linkedin.com/in/viresh-navtake-a0187123b/"
               target="_blank"
             >
               <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://leetcode.com/u/user0838kS/" target="_blank">
+              <img src="images/leetcode.png" alt="" />
+            </a>
+
+            <a href="mailto:vireshnavtake.cloud@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope"></i>
             </a>
 
             <a href="https://medium.com/@viresh3104" target="_blank">
@@ -105,9 +99,84 @@
       </div>
     </section>
 
-    <!-- <section id="about_1" class="about_1">
-      <img src="portfolio_image.jpg" alt="" />
-    </section> -->
+    <section id="about_1" class="about_1">
+      <div class="intro">
+        <h1>Hi, i'm Viresh Navtake 👦🏻</h1>
+        <p>
+          I am a <span>Full Stack Web Developer</span> with growing interest in
+          DevOps and system reliability. I enjoy building efficient, scalable
+          applications and have a great understanding of backend and frontend
+          development. I am in my 3rd year of
+          <span>Computer Science and Engineering</span>(AI) at G.H. Raisoni
+          College of Engineering and Management, Pune.
+        </p>
+        <p>
+          With proficiency in <span>C++, Python</span>, and
+          <span>JavaScript</span>, I have a versatile programming skill set that
+          helps me tackle diverse challenges. I enjoy diving deep into
+          problem-solving and am committed to mastering
+          <span>Data Structures and Algorithms</span>, as I believe these are
+          the backbone of any great developer.
+        </p>
+        <p>
+          Having hands-on industry experience as a <span>Data Analyst</span>,
+          I’ve built a solid foundation in working with data, analyzing
+          patterns, and delivering actionable insights. This experience has
+          taught me how to approach problems with a structured mindset and a
+          keen eye for detail. I’m always curious to learn, adapt, and grow in
+          this ever-evolving tech world.
+        </p>
+        <img src="images/portfolio_image.jpg" style="--color: #4ecdc4" alt="" />
+      </div>
+
+      <div class="tech-stack">
+        <h1>My Tech Stack</h1>
+        <div class="images">
+          <div class="image">
+            <img src="logos/html.svg" alt="" /> <span>HTML</span>
+          </div>
+          <div class="image">
+            <img src="logos/css.svg" alt="" /> <span>CSS</span>
+          </div>
+          <div class="image">
+            <img src="logos/angular.png" alt="" /> <span>ANGULAR</span>
+          </div>
+          <div class="image">
+            <img src="logos/bootstrap-5-1.svg" alt="" /> <span>Bootstrap</span>
+          </div>
+          <div class="image">
+            <img src="logos/javascript.svg" alt="" /> <span>JavaScript</span>
+          </div>
+          <div class="image">
+            <img src="logos/nodejs-icon.svg" alt="" /> <span>NODE</span>
+          </div>
+          <div class="image">
+            <img src="logos/Mongodb.svg" alt="" /> <span>MONGO</span>
+          </div>
+          <div class="image">
+            <img src="logos/sql.svg" alt="" /> <span>SQL </span>
+          </div>
+          <div class="image">
+            <img src="logos/github.svg" alt="" /> <span>GITHUB</span>
+          </div>
+          <div class="image">
+            <img src="logos/postman.svg" alt="" /> <span>POSTMAN</span>
+          </div>
+          <div class="image">
+            <img src="logos/docker.svg" alt="" /> <span>DOCKER</span>
+          </div>
+          <div class="image">
+            <img src="logos/kubernetes.svg" alt="" /> <span>KUBERNETES</span>
+          </div>
+          <div class="image">
+            <img src="logos/jupyter.svg" alt="" /> <span>JUPYTER</span>
+          </div>
+          <div class="image">
+            <img src="logos/python.svg" alt="" /> <span>PYTHON</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- experience section -->
     <section id="experience" class="experience">
@@ -133,14 +202,13 @@
             <i class="fa-solid fa-laptop"></i>
             <span>DATA SMITH AI, PUNE</span>
             <h3>2 Months (On Site)</h3>
-
             <p>
               "I worked here as Data Analyst Intern. I mastered my skills in
               Python, data science libraries (NumPy, Pandas, Matplotlib,
               Scikit-learn), machine learning, and more. contributed to a
               project predicting house prices based on city and residence type.
               It was a fantastic experience understanding the work culture, task
-              management, and solution-oriented approaches.""
+              management, and solution-oriented approaches."
             </p>
           </div>
 
@@ -160,64 +228,123 @@
             </p>
           </div>
         </div>
-
-        <!-- <img src="IMG20241021075850~2.jpg" alt=""> -->
       </div>
     </section>
 
     <!-- project section -->
     <section class="projects" id="projects">
-      <h2 class="section-title" id="rprojects">Recent Projects</h2>
+      <h2 class="section-title" id="proj">Projects</h2>
       <div class="project-grid">
-        <div class="project-card">
-          <img src="house_price_prediction.jpg" alt="" />
-          <h3>House Price Prediction</h3>
-          <p>
-            Used regression techniques to predict house prices based on city and
-            residence type.
-          </p>
-          <div class="btn-group">
-            <div class="btn">Github Repo</div>
-          </div>
-        </div>
-
         <div class="project-card" id="second">
-          <img src="death_age_ratio.png" alt="" />
-          <h3>Death Age Ratio Analysis</h3>
+          <img src="images/movie_rating.png" alt="" />
+          <h3>Movie Rating Platform</h3>
           <p>
-            Used regression techniques to predict house prices based on city and
-            residence type.
+            <span class="name">"Real Ranks"</span> is a movie ranking and rating
+            platform built for users, where users can follow the trends
+            happening in the movie world. I made this app using Angular, and it
+            took me 2 months to build this. My platform highlights the upcoming
+            releases, categorizes movies based on the genres. They can post
+            reviews along with ratings, which will help others. Along with all
+            these features, users can also watch trailers of particular movies,
+            stream their music albums, and access OTT platform links where they
+            can watch the full movie.
           </p>
           <div class="btn-group">
-            <div class="btn">Github Repo</div>
+            <a
+              href="https://github.com/viresh3104/MOVIE-RATING-APP-BY-ANGULAR"
+              target="_blank"
+              class="btn"
+              >GitHub Repo</a
+            >
+            <a
+              href="https://www.linkedin.com/feed/update/urn:li:activity:7217946309993897984/"
+              target="_blank"
+              class="btn"
+              >View Details</a
+            >
           </div>
         </div>
 
         <div class="project-card">
-          <img src="house_price_prediction.jpg" alt="" />
-          <h3>House Price Prediction</h3>
+          <img src="images/ekart.png" alt="" />
+          <h3>E-COMMERCE Platform</h3>
           <p>
-            Used regression techniques to predict house prices based on city and
-            residence type.
+            "DEALIO" is an e-commerce platform built for users, where they
+            can explore and shop for a wide variety of products. I am developing
+            this app using Angular and Node.js, and it is currently under
+            progress. My platform features intuitive navigation, categorizes
+            products based on type and brand, and includes advanced search
+            functionality. Users can add reviews and ratings to products,
+            helping others make informed choices. Along with these features, the
+            platform will also provide secure payment options, real-time order
+            tracking.
           </p>
           <div class="btn-group">
             <div class="btn">Github Repo</div>
           </div>
         </div>
-      </div>
     </section>
 
-    <!-- contact section -->
+    <!-- contact and certification section -->
     <section class="contact" id="contact">
       <div class="input-box">
-        <h2 class="section-title">Contact Me</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjboQwY_AtWH8Fyti_U12jdRy6ynl0zPwg-Pp19YAy4FiLiw/viewform?embedded=true" 
+        width="640" 
+        height="850" 
+        frameborder="0" 
+        marginheight="0" 
+        marginwidth="0">Loading…</iframe>
+      </div>
 
-        <div class="input">
-          <input type="text" placeholder="example@gmail.com" />
-          <i class="fa-solid fa-envelope"></i>
-        </div>
+      <div class="certification">
+        <h1>Certifiaction and Experience Letters</h1>
+        <div class="all">
 
-        <div class="btn">Submit</div>
+          <div class="first">
+            <div class="certi" id="vertical">
+              <div class="info">
+                <img src="images/datasmith.png" alt="">
+                <div class="grp">
+                  <a href="https://drive.google.com/file/d/1qDcwF71OmOu6DmbsRVmOx7gh208wyoBU/view?usp=drive_link" target="_blank">
+                    <button class="view-c">View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="certi" id="horizontal">
+              <div class="info">
+                <img src="images/courcera.png" alt="">
+                <div class="grp">
+                  <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/K6ZK8QBJHUCG" target="_blank">
+                    <button class="creden">View Credentials</button>
+                  </a>
+                  <a href="https://drive.google.com/file/d/1NbXwIjbn3qrLk0IKAX_KxPRhZ__3Y5Xe/view?usp=drive_link" target="_blank">
+                    <button class="view-c">View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="second">
+            <!-- <div class="certi" id="horizontal">
+              <div class="info">
+                <img src="" alt="">
+              </div>
+            </div>  -->
+            <div class="certi" id="vertical">
+              <div class="info">
+                <img src="images/mte.jpg" alt="">
+                <div class="grp">
+                  <a href="https://drive.google.com/file/d/1aZIZaOs0hhwWi4Mw-_6_sq32SJk7zV_w/view?usp=drive_link" target="_blank">
+                    <button class="view-c">View</button>
+                  </a>
+                </div>
+              </div>
+            </div> 
+          </div>
+          </div>
       </div>
     </section>
 
@@ -234,7 +361,6 @@
         <li>
           <a href="#projects">Projects</a>
         </li>
-        src="https://cdn.jsdelivr.net/npm/tsparticles"
 
         <li>
           <a href="#contact">Contact</a>
