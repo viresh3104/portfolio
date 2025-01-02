@@ -1,16 +1,19 @@
-const menuIcon = document.querySelector("#menu-icon");
-const navlinks = document.querySelector(".nav-links");
+// Wait until the DOM content is fully loaded
+document.addEventListener("DOMContentLoaded", () => {
+  const menuIcon = document.querySelector("#menu-icon");
+  const navLinks = document.querySelector(".nav-links");
 
-// on click menu will be displayed
-menuIcon.onclick = () => {
-  navlinks.classList.toggle("active");
-};
+  // Toggle the menu visibility on menu icon click
+  menuIcon.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
 
-// on click menu will be collapsed
-document.querySelectorAll(".nav-links a").forEach((link) => {
-  link.onclick = () => {
-    navlinks.classList.remove("active");
-  };
+  // Collapse the menu when a nav link is clicked
+  document.querySelectorAll(".nav-links a").forEach((link) => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("active");
+    });
+  });
 });
 
 //on click of the download cv
@@ -18,7 +21,7 @@ const downloadCV = document.querySelector("#download-cv");
 particlesJS("particles-js", {
   particles: {
     number: {
-      value: 120,
+      value: 150,
       density: {
         enable: true,
         value_area: 500,
