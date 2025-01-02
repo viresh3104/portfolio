@@ -18,6 +18,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //on click of the download cv
 const downloadCV = document.querySelector("#download-cv");
+
+
+// backround animation
 particlesJS("particles-js", {
   particles: {
     number: {
