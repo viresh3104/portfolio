@@ -729,6 +729,7 @@ body {
       align-items: start !important;
       height: 40% !important;
       top: 0% !important;
+      left: 5% !important;
       h2 {
         visibility: hidden; /* Hide the original text */
         position: relative; /* Create a containing context for ::after */
@@ -776,6 +777,7 @@ body {
       height: 130vh !important; /* Adjust height for smaller screens */
       top: 0em !important; /* Reduce the top offset for better fit */
       margin: 0 auto; /* Center the iframe horizontally */
+      right: 7% !important;
     }
   }
 
