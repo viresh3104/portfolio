@@ -24,10 +24,10 @@ const downloadCV = document.querySelector("#download-cv");
 particlesJS("particles-js", {
   particles: {
     number: {
-      value: 150,
+      value: 250,
       density: {
         enable: true,
-        value_area: 500,
+        value_area: 400,
       },
     },
     color: {
@@ -44,7 +44,7 @@ particlesJS("particles-js", {
       },
       image: {
         src: "img/github.svg",
-        width: 100,
+        width:100,
         height: 100,
       },
     },
@@ -59,7 +59,7 @@ particlesJS("particles-js", {
       },
     },
     size: {
-      value: 4,
+      value: 3,
       random: true,
       anim: {
         enable: false,
@@ -72,7 +72,7 @@ particlesJS("particles-js", {
       enable: true,
       distance: 60,
       color: "#ffffff",
-      opacity: 0.4,
+      opacity: 0.2,
       width: 1,
     },
     move: {
